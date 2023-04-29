@@ -3,6 +3,7 @@ import "../styles/LocationDetails.css";
 
 function LocationDetails(props) {
   const { city, country, errorMessage } = props;
+
   return errorMessage ? (
     <h1>{errorMessage}</h1>
   ) : (
